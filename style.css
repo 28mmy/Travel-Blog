@@ -19,10 +19,11 @@ h1 {
   font-size: 12px;
   color: white;
   padding: 10px 12px;
+  overflow-x: auto;
 }
 
-#travelblog li {
-  padding-right: 60px;
+#travelblog li + li {
+  padding-left: 60px;
 }
 
 .resorts1 img {
